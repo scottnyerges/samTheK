@@ -36,13 +36,47 @@ body, html {
     background-size: cover;
 }
 
+.parallax3 {
+    /* The image used */
+    background-image: url("images/STL.jpg");
+    /* Full height */
+    height: 100%; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.parallax4 {
+    /* The image used */
+    background-image: url("images/egg.jpeg");
+    /* Full height */
+    height: 100%; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 #parallaxText {
 	background-color: ghostWhite;
 	padding: 40px;
 	text-align: center;
 }
+
+
+.text-block {
+    position: absolute;
+    top: 20px;
+    right: 400px;
+    background-color: linen;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 
 /*LAYOUT*/
 
